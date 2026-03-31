@@ -1,0 +1,41 @@
+【server控制台】初始化账号密码：pilot/pilot2048，密码修改后是P@ssw0rd
+
+【MDM】
+账号密码：corplink/veC0rplinK.5ec
+
+【OPS平台】https://192.168.1.37:49901/ops/system-setting/tenant
+账号：ops@feilian.local      P@ssw0rd
+密码：baAiA9n7noiB
+
+【运维管理平台】https://feilian.wingtide.com:8443/admin/device_control/baseline?baseline_tab=event
+账号：admin@feilian.local
+密码：3g3wDq0PEoyR
+
+
+corplink/XrG3VG@Bk3Be（如过pilot密码设置P@ssw0rd，那么corplink密码默认就是）
+
+
+feilianbak
+ops user: ops@feilian.local,   password: 3UFHH33V0as2 
+admin user: admin@feilian.local, password: f0gBn4qUVJkX 
+https://192.168.1.211:49901
+
+1、配置IP
+2、安装服务器，记录ops admin两个账号的密码。一定要记录好。
+3、询问用户企业识别码，比如shiyun，calteram
+4、询问用户公网域名，比如feilian.wingtide.com
+5、给用户要域名证书，nginx格式。
+6、导入授权。
+
+vpn  配置
+#准备公网地址，公网证书，DNS服务器
+#配置外网映射端口，服务端口10443 控制端口8001 数据端口8002
+#配置vnp节点，导入公网证书
+#配置IP池，虚拟IP池不能和业务IP网段相同
+#配置使用权限，访问权限
+#策略按照优先级处理，比如全部放放行单独禁止，单独禁止的策略优先级要放最高。
+#极速模式配置地址，vpn访问急速资源列表的地址才走VPN,其它地址走本地网络。
+
+
+
+
